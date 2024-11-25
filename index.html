@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+             background-color: darkgray;
+        }
+
+
+        .product-card {
+            border: 1px solid ;
+            padding: 10px;
+            margin-bottom: 15px;
+            text-align: center;  
+        }
+
+
+        .product-image {
+            width: 230px;
+            height: 300px;
+        }
+
+
+ .product-details {
+        margin-top: 10px;
+        color: darkslategrey;
+            
+        }
+
+
+         
+   .product-card .btn {
+     background-color: dimgrey; 
+    color: white;  
+    border: none;  
+    padding: 10px 20px;  
+    font-size: 16px;
+    border-radius: 5px;
+    color: darkslategrey;
+}
+
+
+
+.product-card .btn:hover {
+    background-color: black; 
+}
+
+
+ #cart-button {
+    display: block;
+    margin: 20px auto;  
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: dimgrey;
+    color: darkslategrey;
+}
+
+#cart-button:hover {
+    background-color: black;
+  
+}
+
+
+#cart-total {
+    color: dimgray;
+    font-size: 22px;
+    font-weight: bold;
+     margin-left: 200px;
+}
+#cart-container{
+     color: dimgray;
+}
+.cart-item{
+    color: darkslategrey;
+}
+   
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="container">
+        <h1 class="text-center"></h1>
+        <div class="row" id="product-list">
+             
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="product-list">
+            
+        </div>
+    </div>
+    
+    
+    <button id="cart-button" class="btn ">Shopping Cart</button>
+    
+    
+    <div class="container" id="cart-container" >
+        <h3>Shopping Cart</h3>
+        <div id="cart-items">
+            
+        </div>
+    </div>
+    <div id="cart-total" >
+         
+    </div>
+     
+
+
+     <script src="js/script.js"></script>
+ </body>
+</html>
